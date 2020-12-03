@@ -1,9 +1,7 @@
 package com.ChuckNorrisJokes.service;
 
-public class ChuckService {
+public interface ChuckService {
 
-    public String getRandomJoke(){
+    String getRandomJoke();
 
-        return "";
-    }
 }
